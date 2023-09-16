@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+<div id="calculator">
+
+    <input type="text" id="display" disabled>
+
+    <div class="keyBord">
+        <div class="btn" onclick="addToDisplay('1')">1</div>
+        <div class="btn" onclick="addToDisplay('2')">2</div>
+        <div class="btn" onclick="addToDisplay('3')">3</div>
+        <div class="btn" onclick="addToDisplay('+')">+</div>
+
+        <div class="btn" onclick="addToDisplay('4')">4</div>
+        <div class="btn" onclick="addToDisplay('5')">5</div>
+        <div class="btn" onclick="addToDisplay('6')">6</div>
+        <div class="btn" onclick="addToDisplay('-')">-</div>
+
+        <div class="btn" onclick="addToDisplay('7')">7</div>
+        <div class="btn" onclick="addToDisplay('8')">8</div>
+        <div class="btn" onclick="addToDisplay('9')">9</div>
+        <div class="btn" onclick="addToDisplay('*')">*</div>
+
+        <div class="btn" onclick="addToDisplay('0')">0</div>
+        <div class="btn" onclick="clearDisplay()">C</div>
+        <div class="btn" onclick="calculateResult()">=</div>
+        <div class="btn" onclick="addToDisplay('/')">/</div>
+    </div>
+
+
+</div>
+
+<script src="main.js">
+</script>
+</body>
+</html>
